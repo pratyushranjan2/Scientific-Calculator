@@ -5,3 +5,6 @@
       docker_image:
         name: pratyush02/devops_calculator
         source: pull
+
+    - name: Run pratyush02/devops_calculator
+      shell: docker run -it -d pratyush02/devops_calculator
