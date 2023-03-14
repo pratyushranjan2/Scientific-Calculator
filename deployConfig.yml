@@ -1,12 +1,11 @@
 - name: Pull and Run docker image
   hosts: macos
   tasks:
-    - name: Start docker service
-      service:
-        name: docker
-        state: started
 
     - name: Pull pratyush02/devops_calculator
       docker_image:
         name: pratyush02/devops_calculator
         source: pull
+
+    - name: Run pratyush02/devops_calculator
+      shell: docker run -it -d pratyush02/devops_calculator
