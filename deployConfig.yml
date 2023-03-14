@@ -1,0 +1,7 @@
+- name: Pull and Run docker image
+  hosts: macos
+  tasks:
+    - name: Pull pratyush02/devops_calculator
+      docker_image:
+        name: pratyush02/devops_calculator
+        source: pull
