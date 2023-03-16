@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="FunctionsTest" time="0.123" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="FunctionsTest" time="0.119" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/19.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/pratyushranjan/IdeaProjects/Scientific_Calculator/target/surefire/surefirebooter-20230316115128746_3.jar /Users/pratyushranjan/IdeaProjects/Scientific_Calculator/target/surefire 2023-03-16T11-51-28_269-jvmRun1 surefire-20230316115128746_1tmp surefire_0-20230316115128746_2tmp"/>
+    <property name="sun.java.command" value="/Users/pratyushranjan/IdeaProjects/Scientific_Calculator/target/surefire/surefirebooter-20230316180450189_3.jar /Users/pratyushranjan/IdeaProjects/Scientific_Calculator/target/surefire 2023-03-16T18-04-49_773-jvmRun1 surefire-20230316180450189_1tmp surefire_0-20230316180450189_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/pratyushranjan/IdeaProjects/Scientific_Calculator/target/test-classes:/Users/pratyushranjan/IdeaProjects/Scientific_Calculator/target/classes:/Users/pratyushranjan/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/pratyushranjan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/pratyushranjan/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/pratyushranjan/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/pratyushranjan/IdeaProjects/Scientific_Calculator/target/surefire/surefirebooter-20230316115128746_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/pratyushranjan/IdeaProjects/Scientific_Calculator/target/surefire/surefirebooter-20230316180450189_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="19.0.2"/>
@@ -58,5 +58,11 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="factorialPositive" classname="FunctionsTest" time="0.006"/>
+  <testcase name="sqrootValid" classname="FunctionsTest" time="0.005"/>
+  <testcase name="logeValid" classname="FunctionsTest" time="0"/>
+  <testcase name="sqrootInvalid" classname="FunctionsTest" time="0.001"/>
+  <testcase name="factorialInvalid" classname="FunctionsTest" time="0.001"/>
+  <testcase name="powerValid" classname="FunctionsTest" time="0.001"/>
+  <testcase name="factorialValid" classname="FunctionsTest" time="0.001"/>
+  <testcase name="logeInvalid" classname="FunctionsTest" time="0.001"/>
 </testsuite>
