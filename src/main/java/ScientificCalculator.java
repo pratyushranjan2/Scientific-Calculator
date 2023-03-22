@@ -13,7 +13,7 @@ public class ScientificCalculator {
             int choice = sc.nextInt();
             switch (choice) {
                 case 0: // exit
-                    System.out.println("terminating the application...");
+                    System.out.println("terminating application...");
                     return;
                 case 1: // factorial
                     System.out.println("Enter an integer");
