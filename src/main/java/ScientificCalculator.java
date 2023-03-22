@@ -12,10 +12,10 @@ public class ScientificCalculator {
         while (true) {
             int choice = sc.nextInt();
             switch (choice) {
-                case 0:
+                case 0: // exit
                     System.out.println("terminating application...");
                     return;
-                case 1:
+                case 1: // factorial
                     System.out.println("Enter an integer");
                     int n = sc.nextInt();
                     logger.info("[FACTORIAL] - " + n);
@@ -28,7 +28,7 @@ public class ScientificCalculator {
                         System.out.println(factException.getMessage());
                     }
                     break;
-                case 2:
+                case 2: // power
                     System.out.println("Enter base and exponent");
                     double b = sc.nextDouble();
                     double e = sc.nextDouble();
@@ -42,7 +42,7 @@ public class ScientificCalculator {
                         System.out.println(powException.getMessage());
                     }
                     break;
-                case 3:
+                case 3: // natural log
                     System.out.println("Enter a positive value");
                     double l = sc.nextDouble();
                     logger.info("[NATURAL LOG] - " + l);
@@ -55,7 +55,7 @@ public class ScientificCalculator {
                         System.out.println(logException.getMessage());
                     }
                     break;
-                case 4:
+                case 4: // square root
                     System.out.println("Enter a positive value");
                     double s = sc.nextDouble();
                     logger.info("[SQ ROOT] - " + s);
@@ -68,7 +68,7 @@ public class ScientificCalculator {
                         System.out.println(rootException.getMessage());
                     }
                     break;
-                default:
+                default: // invalid choice
                     System.out.println("Enter a valid choice");
             }
             System.out.println("Enter op id: ");

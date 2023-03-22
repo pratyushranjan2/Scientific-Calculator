@@ -12,9 +12,7 @@ public class FunctionsTest {
     }
 
     @Test (expected = IllegalArgumentException.class)
-    public void factorialInvalid() {
-        functions.factorial(-1);
-    }
+    public void factorialInvalid() { functions.factorial(-1); }
 
     @Test
     public void powerValid() {
